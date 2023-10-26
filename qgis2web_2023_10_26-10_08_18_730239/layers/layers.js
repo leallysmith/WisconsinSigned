@@ -175,7 +175,7 @@ var lyr_Wisconsin_12 = new ol.layer.Vector({
                 source:jsonSource_Wisconsin_12, 
                 style: style_Wisconsin_12,
                 interactive: true,
-                title: 'Wisconsin'
+                title: '<img src="styles/legend/Wisconsin_12.png" /> Wisconsin'
             });
 var format_WisconsinCounties_13 = new ol.format.GeoJSON();
 var features_WisconsinCounties_13 = format_WisconsinCounties_13.readFeatures(json_WisconsinCounties_13, 

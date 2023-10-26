@@ -21,7 +21,7 @@ case 'NORTHERN STATES POWER COMPANY-WISCONSIN':
                     break;
 case 'WISCONSIN ELECTRIC POWER COMPANY':
                     return [ new ol.style.Style({
-        fill: new ol.style.Fill({color: 'rgba(255,170,13,0.6823529411764706)'}),
+        fill: new ol.style.Fill({color: 'rgba(255,223,13,0.592156862745098)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
@@ -29,7 +29,7 @@ case 'WISCONSIN ELECTRIC POWER COMPANY':
                     break;
 case 'WISCONSIN PUBLIC SERVICE CORPORATION':
                     return [ new ol.style.Style({
-        fill: new ol.style.Fill({color: 'rgba(34,27,238,0.611764705882353)'}),
+        fill: new ol.style.Fill({color: 'rgba(80,77,255,0.6470588235294118)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)

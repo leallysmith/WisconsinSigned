@@ -6,7 +6,7 @@ var style_Wisconsin_12 = function(feature, resolution){
         feature: feature,
         variables: {}
     };
-    ''
+    var value = ""
     var labelText = "";
     size = 0;
     var labelFont = "10px, sans-serif";
@@ -20,11 +20,12 @@ var style_Wisconsin_12 = function(feature, resolution){
     if ("" !== null) {
         labelText = String("");
     }
-    
     var style = [ new ol.style.Style({
+        stroke: new ol.style.Stroke({color: 'rgba(35,35,35,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 2}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
-                              labelFill, placement, bufferColor, bufferWidth)
-    })];;
+                              labelFill, placement, bufferColor,
+                              bufferWidth)
+    })];
 
     return style;
 };
