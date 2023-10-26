@@ -1,0 +1,1 @@
+var json_AdditionalSelectionCriteriaGeographicOption2PersistentPovertyCounty_8 = {"type":"FeatureCollection","name":"AdditionalSelectionCriteriaGeographicOption2PersistentPovertyCounty_8","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[]}
