@@ -206,7 +206,7 @@ jsonSource_SignedParcelslastupdated102523_14.addFeatures(features_SignedParcelsl
   source: jsonSource_SignedParcelslastupdated102523_14
 });
 var lyr_SignedParcelslastupdated102523_14 = new ol.layer.Vector({
-                declutter: true,
+                declutter: false,
                 source:cluster_SignedParcelslastupdated102523_14, 
                 style: style_SignedParcelslastupdated102523_14,
                 interactive: true,
@@ -223,7 +223,7 @@ jsonSource_ParcelNames_15.addFeatures(features_ParcelNames_15);cluster_ParcelNam
   source: jsonSource_ParcelNames_15
 });
 var lyr_ParcelNames_15 = new ol.layer.Vector({
-                declutter: true,
+                declutter: false,
                 source:cluster_ParcelNames_15, 
                 style: style_ParcelNames_15,
                 interactive: true,
