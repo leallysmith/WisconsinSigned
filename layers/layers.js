@@ -188,7 +188,7 @@ var jsonSource_SignedParcelslastupdated102523_13 = new ol.source.Vector({
     attributions: ' ',
 });
 jsonSource_SignedParcelslastupdated102523_13.addFeatures(features_SignedParcelslastupdated102523_13);cluster_SignedParcelslastupdated102523_13 = new ol.source.Cluster({
-  distance: 5,
+  distance: 10,
   source: jsonSource_SignedParcelslastupdated102523_13
 });
 var lyr_SignedParcelslastupdated102523_13 = new ol.layer.Vector({
