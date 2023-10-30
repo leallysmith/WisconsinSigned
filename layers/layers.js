@@ -219,7 +219,7 @@ var jsonSource_ParcelNames_15 = new ol.source.Vector({
     attributions: ' ',
 });
 jsonSource_ParcelNames_15.addFeatures(features_ParcelNames_15);cluster_ParcelNames_15 = new ol.source.Cluster({
-  distance: 10,
+  distance: 1,
   source: jsonSource_ParcelNames_15
 });
 var lyr_ParcelNames_15 = new ol.layer.Vector({
