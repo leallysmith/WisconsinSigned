@@ -204,9 +204,9 @@ var lyr_SignedParcelslastupdated21224_13 = new ol.layer.Vector({
                 declutter: true,
                 source:cluster_SignedParcelslastupdated21224_13, 
                 style: style_SignedParcelslastupdated21224_13,
-                popuplayertitle: "Signed Parcels (last updated 2/12/24)",
+                popuplayertitle: "Signed Parcels (last updated 3/20/24)",
                 interactive: false,
-                title: '<img src="styles/legend/SignedParcelslastupdated21224_13.png" /> Signed Parcels (last updated 3/1/24)'
+                title: '<img src="styles/legend/SignedParcelslastupdated21224_13.png" /> Signed Parcels (last updated 3/20/24)'
             });
 var format_SignedParcelNameslastupdated21224_14 = new ol.format.GeoJSON();
 var features_SignedParcelNameslastupdated21224_14 = format_SignedParcelNameslastupdated21224_14.readFeatures(json_SignedParcelNameslastupdated21224_14, 
@@ -219,9 +219,9 @@ var lyr_SignedParcelNameslastupdated21224_14 = new ol.layer.Vector({
                 declutter: true,
                 source:jsonSource_SignedParcelNameslastupdated21224_14, 
                 style: style_SignedParcelNameslastupdated21224_14,
-                popuplayertitle: "Signed Parcel Names (last updated 2/12/24)",
+                popuplayertitle: "Signed Parcel Names (last updated 3/20/24)",
                 interactive: true,
-                title: '<img src="styles/legend/SignedParcelNameslastupdated21224_14.png" /> Signed Parcel Names (last updated 3/1/24)'
+                title: '<img src="styles/legend/SignedParcelNameslastupdated21224_14.png" /> Signed Parcel Names (last updated 3/20/24)'
             });
 var group_48eLowIncomeCredits = new ol.layer.Group({
                                 layers: [lyr_AdditionalSelectionCriteriaGeographicOption2PersistentPovertyCounty_6,lyr_AdditionalSelectionCriteriaGeographicOption1CEJSTEnergy_7,lyr_Category1Eligibility_8,],
